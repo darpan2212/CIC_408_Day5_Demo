@@ -24,6 +24,10 @@ do
 				echo "$files is a LOG file"
 			;;
 
+			exe)
+				echo "$files is a Executable file"
+			;;
+			
 			*)
 				echo "$files has a $ext extension";
 			;;
